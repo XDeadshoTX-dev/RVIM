@@ -1,0 +1,68 @@
+# ==========================================
+# Python / Django
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+*.log
+db.sqlite3
+staticfiles/
+media/
+
+# ==========================================
+# Environment Variables (СЕКРЕТИ)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+
+# ==========================================
+# Node.js / React / Vite
+# ==========================================
+node_modules/
+/dist
+/build
+.npm
+.yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Docker (опціонально, але краще залишити)
+# ==========================================
+# .dockerignore
+# docker-compose.override.yml
+
+# ==========================================
+# OS / System
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
